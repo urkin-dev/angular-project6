@@ -37,15 +37,6 @@
       "birthday": "02/16/1985"
     },
     {
-      "id": 5,
-      "name": "Lawrence",
-      "surname": "Tyler",
-      "type": 3,
-      "phone": "+7 (800) 484-20-48",
-      "email": "lawrencetyler@irack.com",
-      "birthday": "05/20/2009"
-    },
-    {
       "id": 6,
       "name": "Imelda",
       "surname": "Barlow",
@@ -89,15 +80,6 @@
       "phone": "+7 (859) 500-21-31",
       "email": "aracelibeck@irack.com",
       "birthday": "03/19/1979"
-    },
-    {
-      "id": 11,
-      "name": "Katheryn",
-      "surname": "Carney",
-      "type": 3,
-      "phone": "+7 (989) 495-29-46",
-      "email": "katheryncarney@irack.com",
-      "birthday": "11/09/2012"
     },
     {
       "id": 12,
@@ -163,15 +145,6 @@
       "birthday": "01/18/1994"
     },
     {
-      "id": 19,
-      "name": "Delia",
-      "surname": "Alexander",
-      "type": 1,
-      "phone": "+7 (924) 433-36-97",
-      "email": "deliaalexander@irack.com",
-      "birthday": "02/17/2011"
-    },
-    {
       "id": 20,
       "name": "Erin",
       "surname": "Craft",
@@ -179,15 +152,6 @@
       "phone": "+7 (835) 461-36-68",
       "email": "erincraft@irack.com",
       "birthday": "04/24/1992"
-    },
-    {
-      "id": 21,
-      "name": "Thompson",
-      "surname": "Ross",
-      "type": 0,
-      "phone": "+7 (868) 455-38-08",
-      "email": "thompsonross@irack.com",
-      "birthday": "05/27/2018"
     },
     {
       "id": 22,
@@ -217,24 +181,6 @@
       "birthday": "06/26/1983"
     },
     {
-      "id": 25,
-      "name": "Lacey",
-      "surname": "Joyner",
-      "type": 0,
-      "phone": "+7 (896) 428-30-68",
-      "email": "laceyjoyner@irack.com",
-      "birthday": "01/10/2008"
-    },
-    {
-      "id": 26,
-      "name": "Dionne",
-      "surname": "Britt",
-      "type": 3,
-      "phone": "+7 (945) 586-26-16",
-      "email": "dionnebritt@irack.com",
-      "birthday": "03/28/2014"
-    },
-    {
       "id": 27,
       "name": "Susanna",
       "surname": "Lester",
@@ -251,15 +197,6 @@
       "phone": "+7 (987) 591-22-43",
       "email": "gentrypowell@irack.com",
       "birthday": "06/27/1984"
-    },
-    {
-      "id": 29,
-      "name": "Ingrid",
-      "surname": "Marks",
-      "type": 3,
-      "phone": "+7 (892) 590-37-74",
-      "email": "ingridmarks@irack.com",
-      "birthday": "02/09/2005"
     },
     {
       "id": 30,
@@ -343,24 +280,6 @@
       "birthday": "12/09/1988"
     },
     {
-      "id": 39,
-      "name": "Vanessa",
-      "surname": "Yang",
-      "type": 3,
-      "phone": "+7 (846) 471-29-92",
-      "email": "vanessayang@irack.com",
-      "birthday": "07/20/2008"
-    },
-    {
-      "id": 40,
-      "name": "Velazquez",
-      "surname": "Bean",
-      "type": 2,
-      "phone": "+7 (907) 512-39-93",
-      "email": "velazquezbean@irack.com",
-      "birthday": "04/16/2015"
-    },
-    {
       "id": 41,
       "name": "Reyes",
       "surname": "Weaver",
@@ -377,24 +296,6 @@
       "phone": "+7 (878) 442-34-79",
       "email": "carsoneverett@irack.com",
       "birthday": "02/17/1978"
-    },
-    {
-      "id": 43,
-      "name": "Joy",
-      "surname": "Arnold",
-      "type": 0,
-      "phone": "+7 (907) 422-39-07",
-      "email": "joyarnold@irack.com",
-      "birthday": "07/05/2004"
-    },
-    {
-      "id": 44,
-      "name": "Britt",
-      "surname": "Mclaughlin",
-      "type": 2,
-      "phone": "+7 (812) 586-21-45",
-      "email": "brittmclaughlin@irack.com",
-      "birthday": "01/20/2006"
     },
     {
       "id": 45,
@@ -433,15 +334,6 @@
       "birthday": "01/21/1995"
     },
     {
-      "id": 49,
-      "name": "Wright",
-      "surname": "Rivers",
-      "type": 3,
-      "phone": "+7 (815) 544-30-18",
-      "email": "wrightrivers@irack.com",
-      "birthday": "04/11/2014"
-    },
-    {
       "id": 50,
       "name": "Kaufman",
       "surname": "Matthews",
@@ -469,15 +361,6 @@
       "birthday": "11/17/1973"
     },
     {
-      "id": 53,
-      "name": "Rogers",
-      "surname": "Bradshaw",
-      "type": 3,
-      "phone": "+7 (913) 449-26-04",
-      "email": "rogersbradshaw@irack.com",
-      "birthday": "11/14/2007"
-    },
-    {
       "id": 54,
       "name": "Nicholson",
       "surname": "Tran",
@@ -487,15 +370,6 @@
       "birthday": "02/26/1973"
     },
     {
-      "id": 55,
-      "name": "Josefina",
-      "surname": "Kelly",
-      "type": 0,
-      "phone": "+7 (954) 561-32-43",
-      "email": "josefinakelly@irack.com",
-      "birthday": "12/08/2006"
-    },
-    {
       "id": 56,
       "name": "Lila",
       "surname": "Rutledge",
@@ -503,24 +377,6 @@
       "phone": "+7 (972) 589-27-45",
       "email": "lilarutledge@irack.com",
       "birthday": "04/01/1988"
-    },
-    {
-      "id": 57,
-      "name": "Smith",
-      "surname": "Nash",
-      "type": 3,
-      "phone": "+7 (926) 477-22-08",
-      "email": "smithnash@irack.com",
-      "birthday": "01/22/2004"
-    },
-    {
-      "id": 58,
-      "name": "Chasity",
-      "surname": "Moran",
-      "type": 3,
-      "phone": "+7 (856) 415-27-32",
-      "email": "chasitymoran@irack.com",
-      "birthday": "08/18/2013"
     },
     {
       "id": 59,
@@ -568,15 +424,6 @@
       "birthday": "05/12/1983"
     },
     {
-      "id": 64,
-      "name": "Fields",
-      "surname": "Hammond",
-      "type": 3,
-      "phone": "+7 (902) 487-25-16",
-      "email": "fieldshammond@irack.com",
-      "birthday": "03/06/2007"
-    },
-    {
       "id": 65,
       "name": "Suzette",
       "surname": "Conrad",
@@ -584,24 +431,6 @@
       "phone": "+7 (842) 411-30-49",
       "email": "suzetteconrad@irack.com",
       "birthday": "08/10/1997"
-    },
-    {
-      "id": 66,
-      "name": "Lucas",
-      "surname": "Richard",
-      "type": 1,
-      "phone": "+7 (820) 588-27-53",
-      "email": "lucasrichard@irack.com",
-      "birthday": "01/28/2012"
-    },
-    {
-      "id": 67,
-      "name": "Cora",
-      "surname": "Harper",
-      "type": 1,
-      "phone": "+7 (887) 459-23-48",
-      "email": "coraharper@irack.com",
-      "birthday": "02/07/2019"
     },
     {
       "id": 68,
@@ -625,9 +454,9 @@
       "name": "Ivan",
       "surname": "Urkin",
       "type": 0,
-      "phone": "9091463213",
-      "email": "yurkin.ivan5456@gmail.com",
-      "birthday": "10042000",
+      "phone": "2349234329",
+      "email": "urferf@gargre",
+      "birthday": "10/04/2000",
       "id": 70
     }
   ]

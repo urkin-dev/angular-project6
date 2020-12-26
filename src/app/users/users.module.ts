@@ -9,12 +9,13 @@ import { UsersAddformComponent } from '../ui/users-addform/users-addform.compone
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { NgxMaskModule, IConfig } from 'ngx-mask';
+import { UserAgePipe } from '../shared/pipes/user-age.pipe';
 
 export const options: Partial<IConfig> | (() => Partial<IConfig>) = {};
 
 
 @NgModule({
-  declarations: [UserListComponent, UsersComponent, UsersTableComponent, UsersAddformComponent],
+  declarations: [UserListComponent, UsersComponent, UsersTableComponent, UsersAddformComponent, UserAgePipe],
   imports: [
     CommonModule,
     UsersRoutingModule,

@@ -52,8 +52,13 @@ export class UsersAddformComponent implements OnInit {
       type: this.type,
       phone: this.phone,
       email: this.email,
-      birthday: this.birthday
+      birthday: (this.birthday.slice(0, 2) + '/' + this.birthday.slice(2, 4) + '/' + this.birthday.slice(4, 8))
     });
-  }
 
+    this.name = '';
+    this.surname = '';
+    this.phone = '';
+    this.email = '';
+    this.birthday = '';
+  }
 }
