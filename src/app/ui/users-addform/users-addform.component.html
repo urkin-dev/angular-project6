@@ -1,0 +1,67 @@
+<div>
+    <form [formGroup]="addform" class="row mb-3">
+        <div class="col-12">
+        <h5>Добавить сотрудника</h5>
+        </div>
+        <div class="col-4">
+        <input
+            type="text"
+            class="form-control"
+            placeholder="Имя"
+            [(ngModel)]="name"
+            formControlName="firstName"
+        />
+        </div>
+        <div class="col-4">
+        <input
+            type="text"
+            class="form-control"
+            placeholder="Фамилия"
+            [(ngModel)]="surname"
+            formControlName="lastName"
+        />
+        </div>
+        <div class="col-4">
+        <input
+            type="text"
+            class="form-control"
+            placeholder="Номер телефона"
+            [(ngModel)]="phone"
+            mask="(000) 000-00-00"
+            prefix="+7 "
+            formControlName="phone"
+        />
+        </div>
+        <div class="col-4 mt-3">
+        <input
+            type="email"
+            class="form-control"
+            [(ngModel)]="email"
+            placeholder="Email"
+            ngModel email
+            formControlName="email"
+        />
+        </div>
+        <div class="col-4 mt-3">
+        <input
+            type="text"
+            class="form-control"
+            placeholder="Дата рождения: месяц/день/год"
+            [(ngModel)]="birthday"
+            formControlName="birthday"
+            mask="00/00/0000"
+        />
+        </div>
+        <div class="col-4 mt-3  ">
+        <select class="custom-select" [(ngModel)]="type" formControlName="type">
+            <option [ngValue]="MyUserType.IT">It department</option>
+            <option [ngValue]="MyUserType.sales_department">Sales department</option>
+            <option [ngValue]="MyUserType.delivery_department">Delivery department</option>
+            <option [ngValue]="MyUserType.legal_department">Legal department</option>
+        </select>
+    </div>
+    <div class="col-12 mt-1">
+        <button class="btn btn-primary btn-sm mt-2" [disabled]="!addform.valid" (click)="onAddUser()">Добавить</button>
+    </div>
+    </form>
+</div>

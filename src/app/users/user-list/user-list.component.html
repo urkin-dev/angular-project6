@@ -1,0 +1,23 @@
+<div class="container">
+    <app-users-addform (addUser)="onAddUser($event)"></app-users-addform>
+    <app-users-table
+        [title]="'IT department'"
+        [users]="getByType(myUserType.IT)"
+        (deleteUser)="onDeleteUser($event)"
+    ></app-users-table>
+    <app-users-table
+        [title]="'Sales department'"
+        [users]="getByType(myUserType.sales_department)"
+        (deleteUser)="onDeleteUser($event)"
+    ></app-users-table>
+    <app-users-table
+        [title]="'Delivery department'"
+        [users]="getByType(myUserType.delivery_department)"
+        (deleteUser)="onDeleteUser($event)"
+    ></app-users-table>
+    <app-users-table
+        [title]="'Legal department'"
+        [users]="getByType(myUserType.legal_department)"
+        (deleteUser)="onDeleteUser($event)"
+    ></app-users-table>
+</div>
