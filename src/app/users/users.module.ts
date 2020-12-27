@@ -10,12 +10,24 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { NgxMaskModule, IConfig } from 'ngx-mask';
 import { UserAgePipe } from '../shared/pipes/user-age.pipe';
+import { FilterByNameAndSurnamePipe } from '../shared/pipes/filter-by-name-and-surname.pipe';
+import { OrderByPipe } from '../shared/pipes/order-by.pipe';
+import { UserEditComponent } from './user-edit/user-edit.component';
 
 export const options: Partial<IConfig> | (() => Partial<IConfig>) = {};
 
 
 @NgModule({
-  declarations: [UserListComponent, UsersComponent, UsersTableComponent, UsersAddformComponent, UserAgePipe],
+  declarations: [
+    UserListComponent,
+    UsersComponent,
+    UsersTableComponent,
+    UsersAddformComponent,
+    UserAgePipe,
+    FilterByNameAndSurnamePipe,
+    OrderByPipe,
+    UserEditComponent
+  ],
   imports: [
     CommonModule,
     UsersRoutingModule,

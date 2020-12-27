@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { User, MyUserType } from 'src/app/shared/models/user.model';
+import { UserAgePipe } from 'src/app/shared/pipes/user-age.pipe';
 import { UsersService } from 'src/app/shared/services/users.service';
 
 @Component({
@@ -11,6 +12,7 @@ export class UserListComponent implements OnInit {
 
   myUserType = MyUserType;
   users: User[] = [];
+  searchStr = '';
 
   constructor(private usersService: UsersService) { }
 
@@ -18,12 +20,12 @@ export class UserListComponent implements OnInit {
     this.getData();
   }
 
-  // tslint:disable-next-line: typedef
-  async getData() {
+  async getData(): Promise<any> {
     try {
       const users = await this.usersService.getAll();
       if (users !== null && users !== undefined) {
         this.users = users;
+        this.filterUsers();
       }
     } catch (e) {
       console.error(e);
@@ -47,12 +49,23 @@ export class UserListComponent implements OnInit {
       user.id = 0;
     }
 
-    this.users.push(user);
     this.usersService.postOne(user);
+
+    const ageUserFilter = new UserAgePipe();
+    user.birthday = '' + ageUserFilter.transform(user.birthday); // Filter birthday to age
+    this.users.push(user);
   }
 
   getByType(type: number): any[] {
     return this.users.filter((user) => user.type === type);
+  }
+
+  filterUsers(): void {
+    const ageUserFilter = new UserAgePipe();
+    this.users = this.users.filter(user => {
+      user.birthday = '' + ageUserFilter.transform(user.birthday);
+      return user;
+    });
   }
 
 }

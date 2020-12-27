@@ -1,23 +1,29 @@
 <div class="container">
     <app-users-addform (addUser)="onAddUser($event)"></app-users-addform>
+    <div class="row">
+        <div class="col-12">
+            <h6>Search</h6>
+            <input type="search" class="form-control mb-3" [(ngModel)]="searchStr" placeholder="Enter name and surname with space between">
+        </div>
+    </div>
     <app-users-table
         [title]="'IT department'"
-        [users]="getByType(myUserType.IT)"
+        [users]="getByType(myUserType.IT) | filterByNameAndSurname: searchStr"
         (deleteUser)="onDeleteUser($event)"
     ></app-users-table>
     <app-users-table
         [title]="'Sales department'"
-        [users]="getByType(myUserType.sales_department)"
+        [users]="getByType(myUserType.sales_department) | filterByNameAndSurname: searchStr"
         (deleteUser)="onDeleteUser($event)"
     ></app-users-table>
     <app-users-table
         [title]="'Delivery department'"
-        [users]="getByType(myUserType.delivery_department)"
+        [users]="getByType(myUserType.delivery_department) | filterByNameAndSurname: searchStr"
         (deleteUser)="onDeleteUser($event)"
     ></app-users-table>
     <app-users-table
         [title]="'Legal department'"
-        [users]="getByType(myUserType.legal_department)"
+        [users]="getByType(myUserType.legal_department) | filterByNameAndSurname: searchStr"
         (deleteUser)="onDeleteUser($event)"
     ></app-users-table>
 </div>

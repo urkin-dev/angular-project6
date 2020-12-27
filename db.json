@@ -10,15 +10,6 @@
       "birthday": "07/03/1984"
     },
     {
-      "id": 2,
-      "name": "Flowers",
-      "surname": "Floyd",
-      "type": 0,
-      "phone": "+7 (968) 495-36-98",
-      "email": "flowersfloyd@irack.com",
-      "birthday": "01/04/1998"
-    },
-    {
       "id": 3,
       "name": "Burgess",
       "surname": "Herrera",
@@ -35,15 +26,6 @@
       "phone": "+7 (918) 523-25-65",
       "email": "nadiareynolds@irack.com",
       "birthday": "02/16/1985"
-    },
-    {
-      "id": 6,
-      "name": "Imelda",
-      "surname": "Barlow",
-      "type": 0,
-      "phone": "+7 (858) 437-34-29",
-      "email": "imeldabarlow@irack.com",
-      "birthday": "04/26/1981"
     },
     {
       "id": 7,
@@ -100,13 +82,13 @@
       "birthday": "03/03/1971"
     },
     {
-      "id": 14,
       "name": "Christi",
       "surname": "Garrison",
-      "type": 0,
       "phone": "+7 (835) 482-33-34",
+      "type": 0,
       "email": "christigarrison@irack.com",
-      "birthday": "05/09/1984"
+      "birthday": "05/09/2000",
+      "id": 14
     },
     {
       "id": 15,
@@ -145,13 +127,13 @@
       "birthday": "01/18/1994"
     },
     {
-      "id": 20,
       "name": "Erin",
       "surname": "Craft",
-      "type": 0,
       "phone": "+7 (835) 461-36-68",
+      "type": 0,
       "email": "erincraft@irack.com",
-      "birthday": "04/24/1992"
+      "birthday": "04/24/2000",
+      "id": 20
     },
     {
       "id": 22,
@@ -343,15 +325,6 @@
       "birthday": "08/06/1984"
     },
     {
-      "id": 51,
-      "name": "Allison",
-      "surname": "Wade",
-      "type": 0,
-      "phone": "+7 (935) 484-36-91",
-      "email": "allisonwade@irack.com",
-      "birthday": "12/08/1986"
-    },
-    {
       "id": 52,
       "name": "Diane",
       "surname": "King",
@@ -433,15 +406,6 @@
       "birthday": "08/10/1997"
     },
     {
-      "id": 68,
-      "name": "Trisha",
-      "surname": "Smith",
-      "type": 0,
-      "phone": "+7 (881) 514-36-96",
-      "email": "trishasmith@irack.com",
-      "birthday": "10/15/1999"
-    },
-    {
       "id": 69,
       "name": "Freda",
       "surname": "Becker",
@@ -449,15 +413,6 @@
       "phone": "+7 (923) 470-32-42",
       "email": "fredabecker@irack.com",
       "birthday": "06/07/1991"
-    },
-    {
-      "name": "Ivan",
-      "surname": "Urkin",
-      "type": 0,
-      "phone": "2349234329",
-      "email": "urferf@gargre",
-      "birthday": "10/04/2000",
-      "id": 70
     }
   ]
 }
